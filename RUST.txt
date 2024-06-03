@@ -1,0 +1,33 @@
+fn main() {
+    // Integer
+    let int_var: i32 = 42;
+    
+    // Floating-point
+    let float_var: f64 = 3.14;
+    
+    // Boolean
+    let bool_var: bool = true;
+    
+    // Character
+    let char_var: char = 'A';
+    
+    // String
+    let string_var: &str = "Hello, Rust!";
+    
+    // Array
+    let array_var: [i32; 3] = [1, 2, 3];
+    
+    // Tuple
+    let tuple_var: (i32, f64, char) = (10, 2.5, 'R');
+    
+    // Print the variables
+    println!("Integer value: {}", int_var);
+    println!("Floating-point value: {}", float_var);
+    println!("Boolean value: {}", bool_var);
+    println!("Character value: {}", char_var);
+    println!("String value: {}", string_var);
+    
+    println!("Array values: {:?}", array_var);
+    println!("Tuple values: {:?}", tuple_var);
+}
+S
